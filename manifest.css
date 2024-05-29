@@ -1,0 +1,437 @@
+body{
+	background-color: black;
+
+}
+
+.flex-container{
+	display: flex;
+	justify-content: center;
+	font-family: "Baskerville";
+	text-align: center;
+	font-weight: bolder;
+
+	font-size: 60px;
+	margin-left: 20px;
+	justify-content: center;
+	background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	animation: glitter 3s infinite;
+
+
+}
+
+@keyframes glitter{
+
+	0%{text-shadow:  0 0 10px purple};
+
+	20%{text-shadow: 0 0 20px white};
+	40%{text-shadow: 0 0 30px purple};
+	60%{text-shadow: 0 0 40px pink};
+	80%{text-shadow: 0 0 50px green};
+	
+	100%{text-shadow: 0 0 60px red};
+}
+
+ul{
+	display: flex;
+	margin: 0;
+	padding: 50px;
+	font-family: 'Dancing Script';
+}
+
+li{
+	
+	font-size: 30px;
+	justify-content: center;
+	display: flex;
+	margin: 0;
+	padding: 50px;
+}
+
+
+
+h1{
+	margin-top: 8px;
+	font-family: 'Josefin Sans', serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 50px;
+
+
+	
+	margin-left: 20px;
+	justify-content: center;
+	background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	animation: glitter 3s infinite;
+
+}
+@keyframes glitter{
+
+	0%{text-shadow:  0 0 10px purple};
+
+	20%{text-shadow: 0 0 20px white};
+	40%{text-shadow: 0 0 30px purple};
+	60%{text-shadow: 0 0 40px pink};
+	80%{text-shadow: 0 0 50px green};
+	
+	100%{text-shadow: 0 0 60px red};
+}
+
+h2{
+	color: white;
+    font-family: 'Baskerville';
+    font-size: 44px;
+	text-align: center;
+    background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	animation: glitter 3s infinite;
+}
+@keyframes glitter{
+
+	0%{text-shadow:  0 0 10px purple};
+
+	20%{text-shadow: 0 0 20px white};
+	40%{text-shadow: 0 0 30px purple};
+	60%{text-shadow: 0 0 40px pink};
+	80%{text-shadow: 0 0 50px green};
+	
+	100%{text-shadow: 0 0 60px red};
+}
+
+
+
+h3{
+	color: white;
+    font-size: 30px;
+    font-family: 'Baskerville';
+	text-align: center;
+    background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+
+	0%{text-shadow:  0 0 10px purple};
+
+	20%{text-shadow: 0 0 20px white};
+	40%{text-shadow: 0 0 30px purple};
+	60%{text-shadow: 0 0 40px pink};
+	80%{text-shadow: 0 0 50px green};
+	
+	100%{text-shadow: 0 0 60px red};
+}
+
+p{
+	color: white;
+	text-align: center;
+}
+
+
+main {
+	background: url('https://t3.ftcdn.net/jpg/06/35/33/26/360_F_635332697_CVRc13SME9Ji5UJu4q3Qs1j4LMotZ4qq.jpg');
+
+   
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 2200px;
+    width: 100%;
+	
+}
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px purple};
+	20%{text-shadow: 0 0 20px black};
+	40%{text-shadow: 0 0 30px purple};
+	60%{text-shadow: 0 0 40px violet};
+	80%{text-shadow: 0 0 50px black};
+	100%{text-shadow: 0 0 60px purple};
+}
+
+
+.delete-button {
+	width: 30px;
+	height: 30px;
+    background-color: #ff5f5f; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.delete-button:hover {
+    background-color: #ff0000; /* Darker red background color on hover */
+}
+
+
+.manifestationCheckbox{
+	width: 50px;
+	height: 50px;
+	cursor: help;
+	accent-color: purple;
+	margin-right: 10px;
+	vertical-align: middle;
+
+	
+}
+
+.fulfilled::after{
+	content: "Congratulations! Your manifestation was received";
+	background: linear-gradient(to right, black, red, purple, red, black, purple );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 1s infinite;
+	color: red;
+	font-style: italic;
+	font-size: 20px;
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px black};
+	20%{text-shadow: 0 0 20px red};
+	40%{text-shadow: 0 0 30px purple};
+	60%{text-shadow: 0 0 40px red};
+	80%{text-shadow: 0 0 50px black};
+	100%{text-shadow: 0 0 60px purple};
+}
+
+.manifestationCheckbox:hover{
+	color: 2px solid red;
+	
+
+}
+
+.tooltip{
+	visibility: hidden;
+	background-color: black;
+	color: pink;
+	border: 1px solid ccc;
+	padding: 5px;
+	border-radius: 4px;
+	position: absolute;
+	z-index: 1;
+}
+
+.manifestationCheckbox:hover+.tooltip{
+	visibility: visible;
+}
+
+
+
+#formname{
+	color: white;
+    font-size: 40px;
+    font-family: 'Baskerville';
+    background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+    0%{text-shadow: 0 0 10px pink};
+    20%{text-shadow: 0 0 20px violet};
+    40%{text-shadow: 0 0 30px skyblue};
+    60%{text-shadow: 0 0 40px pink};
+    80%{text-shadow: 0 0 50px skyblue};
+    100%{text-shadow: 0 0 60px violet};
+}
+
+.entry-text{
+	background-color:pink;
+	
+	font-family: "Baskerville";
+	font-size: 40px;
+	line-height: 1.5;
+	display: inline-block;
+	width: calc(100% - 100px);
+	margin-right: 10px;
+	background: linear-gradient(to right, purple, violet, blue, pink, red, violet);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+    0%{text-shadow: 0 0 10px purple};
+    20%{text-shadow: 0 0 20px violet};
+    40%{text-shadow: 0 0 30px blue};
+    60%{text-shadow: 0 0 40px pink};
+    80%{text-shadow: 0 0 50px red};
+    100%{text-shadow: 0 0 60px violet};
+}
+
+.entry-text:hover{
+	color: purple;
+}
+
+.edit-button::before{
+	size: 10px;
+	display: inline-block;
+	margin-right: 5px;
+
+}
+
+.edit-button, .delete-button{
+	width: 50px;
+	height: 50px;
+	margin-left: 5px;
+}
+
+
+.entry-form {
+    margin-bottom: 20px;
+	justify-content: center;
+	align-items: center;
+	flex: 0 0 18%
+	
+}
+
+.entry-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+	align-items: center;
+	justify-content: center;
+}
+
+.entry-form textarea {
+	background: linear gradient(to right, pink, white, silver, pink, skyblue, pink);
+	background-color: aliceblue;
+	animation: glitter 3s infinite;
+    width: 90%;
+	font-family: "Baskerville";
+    padding: 10px;
+    border-radius: 4px;
+    border: 5px dotted slateblue;
+    font-size: 30px;
+	justify-content: center;
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px pink};
+	20%{text-shadow: 0 0 20px white};
+	40%{text-shadow: 0 0 30px silver};
+
+	60%{text-shadow: 0 0 40px pink};
+	80%{text-shadow: 0 0 50px skyblue};
+	100%{text-shadow: 0 0 60px pink};
+}
+
+.entry-form textarea:hover{
+	color: violet;
+}
+
+.entry-form button {
+    display: inline-block;
+	padding: 10px 20px;
+	font-weight: bolder;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Baskerville', 'serif';
+	transition: background-color 0.3s ease;
+	background: linear-gradient(to right, pink,violet, skyblue, pink, skyblue, violet);
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter {
+	0% {text-shadow: 0 0 10px pink};
+	20% {text-shadow: 0 0 20px violet};
+	40% {text-shadow: 0 0 30px skyblue};
+	60% {text-shadow: 0 0 40px pink};
+	80% {text-shadow: 0 0 50px skyblue};
+	100% {text-shadow: 0 0 60px violet};
+}  
+
+.entry-form button:hover {
+    color:red;
+}
+
+.entries h2 {
+    margin-bottom: 10px;
+	
+
+}
+
+#entry-list {
+	
+    list-style-type: none;
+    padding: 0;
+}
+
+#entry-list li {
+    padding: 10px;
+	background-color: aliceblue;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    
+    display: flex;
+    align-items: center;
+}
+
+#entry-list li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#entry-list li.fulfilled {
+    text-decoration: line-through;
+    color: #888;
+}
+
+
+#google-login-btn{
+	font-family: "Baskerville";
+	justify-content: center;
+	
+	margin: 0;
+	padding:0;
+	display: flex;
+	flex: 0 0 18%;
+	margin-left: 1000px;
+	margin-bottom: 20px;
+	
+
+	
+	
+	font-size: 16px;
+	display: inline-block;
+	padding: 10px 20px;
+	font-weight: bolder;
+	color: black;
+	
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Baskerville', 'serif';
+	background: linear-gradient(to right, darkblue, white, purple, silver, violet, aliceblue);
+	animation: glitter 3s infinite;
+	
+}
+
+@keyframes glitter{
+	0%{text-shadow: 0 0 10px darkblue};
+	20%{text-shadow: 0 0 20px white};
+	40%{text-shadow: 0 0 30px purple};
+	60%{text-shadow: 0 0 40px silver};
+	80%{text-shadow: 0 0 50px violet};
+	100%{text-shadow: 0 0 60px aliceblue};
+}
+	
+

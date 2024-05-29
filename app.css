@@ -1,0 +1,25 @@
+
+body{
+	background-color: black;
+}
+
+h1{
+	
+	color: black;
+	text-align: center;
+    font-size: 70px;
+    font-family: 'Baskerville';
+    background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: glitter 3s infinite;
+}
+
+@keyframes glitter{
+    0%{text-shadow: 0 0 10px pink};
+    20%{text-shadow: 0 0 20px violet};
+    40%{text-shadow: 0 0 30px skyblue};
+    60%{text-shadow: 0 0 40px pink};
+    80%{text-shadow: 0 0 50px skyblue};
+    100%{text-shadow: 0 0 60px violet};
+}
