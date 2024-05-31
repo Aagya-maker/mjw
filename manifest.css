@@ -145,8 +145,7 @@ main {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 2200px;
-    width: 100%;
+    
 	
 }
 
@@ -293,11 +292,12 @@ main {
     margin-bottom: 20px;
 	justify-content: center;
 	align-items: center;
-	flex: 0 0 18%;
+	width: 100%;
 	
 }
 
 .entry-form label {
+	width: 100%;
     font-weight: bold;
     display: block;
     margin-bottom: 8px;
@@ -309,7 +309,7 @@ main {
 	background: linear gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white );
 	background-color: black;
 	animation: glitter 3s infinite;
-    width: 90%;
+    width: 100%;
 	font-family: "Baskerville";
     padding: 10px;
     border-radius: 4px;
