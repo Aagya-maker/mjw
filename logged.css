@@ -125,15 +125,10 @@ p{
 
 main {
 	background: url('https://t3.ftcdn.net/jpg/06/35/33/26/360_F_635332697_CVRc13SME9Ji5UJu4q3Qs1j4LMotZ4qq.jpg');
-	margin-left: 180px;
-
-   
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 2200px;
-    width: 100%;
-	
+   
 }
 
 
