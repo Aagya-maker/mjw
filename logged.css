@@ -124,24 +124,24 @@ p{
 
 
 main {
+	
 	background: url('https://t3.ftcdn.net/jpg/06/35/33/26/360_F_635332697_CVRc13SME9Ji5UJu4q3Qs1j4LMotZ4qq.jpg');
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
-/* CSS for the delete button */
+
 .delete-button {
 	width: 30px;
 	height: 30px;
-    background-color: #ff5f5f; /* Red background color */
-    color: white; /* White text color */
-    border: none; /* Remove border */
-    padding: 5px 10px; /* Add padding */
-    border-radius: 5px; /* Add rounded corners */
-    cursor: pointer; /* Change cursor to pointer on hover */
+    background-color: #ff5f5f; 
+    color: white;
+    border: none; 
+    padding: 5px 10px; 
+    border-radius: 8px;
+    cursor: pointer; 
 }
 
 .delete-button:hover {
