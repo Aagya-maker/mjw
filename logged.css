@@ -1,8 +1,8 @@
 body {
     font-family:'Josefin Sans', serif;
-	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVZBfW9wEjiJQZzcLL_cWxOJPNpl8ejJxfV1LzR3iVmg&s');
 	
-    background-color: darkorchid;
+
+    background-color: black;
     margin: 0;
     padding: 20px;
     text-align: center;
@@ -13,15 +13,41 @@ body {
 }
 
 
+header{
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
+}
+
+header h1, header h2, header h3{
+	margin-bottom: 20px;
+}
+
+header p{
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+
+header ul {
+	padding-left: 0;
+	list-style-type: none;
+	font-size: 30px;
+	color: white;
+}
+
+header ul li{
+	padding: 5px 0;
+}
 h1{
-	font-family: "Baskerville";
+	font-family: 'Josefin Sans', serif;
+	margin-top: 0;
 	text-align: center;
 
 	font-size: 60px;
 	margin-left: 20px;
 	justify-content: center;
-	background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+	background: linear-gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white);
 
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
@@ -30,22 +56,23 @@ h1{
 }
 @keyframes glitter{
 
-	0%{text-shadow:  0 0 10px purple};
+	0%{text-shadow:  0 0 10px white};
 
-	20%{text-shadow: 0 0 20px white};
-	40%{text-shadow: 0 0 30px purple};
-	60%{text-shadow: 0 0 40px pink};
-	80%{text-shadow: 0 0 50px green};
+	20%{text-shadow: 0 0 20px aliceblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
 	
-	100%{text-shadow: 0 0 60px red};
+	100%{text-shadow: 0 0 60px white};
 }
+
 
 h2{
 	color: white;
-    font-family: 'Baskerville';
+    font-family: 'Josefin Sans', serif;
     font-size: 44px;
 	text-align: center;
-    background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+    background: linear-gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white);
 
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
@@ -53,24 +80,25 @@ h2{
 }
 @keyframes glitter{
 
-	0%{text-shadow:  0 0 10px purple};
+	0%{text-shadow:  0 0 10px white};
 
-	20%{text-shadow: 0 0 20px white};
-	40%{text-shadow: 0 0 30px purple};
-	60%{text-shadow: 0 0 40px pink};
-	80%{text-shadow: 0 0 50px green};
+	20%{text-shadow: 0 0 20px aliceblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
 	
-	100%{text-shadow: 0 0 60px red};
+	100%{text-shadow: 0 0 60px white};
 }
+
 
 
 
 h3{
 	color: white;
     font-size: 30px;
-    font-family: 'Baskerville';
+    font-family: 'Josefin Sans', serif;
 	text-align: center;
-    background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+    background: linear-gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white);
 
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
@@ -79,14 +107,14 @@ h3{
 
 @keyframes glitter{
 
-	0%{text-shadow:  0 0 10px purple};
+	0%{text-shadow:  0 0 10px white};
 
-	20%{text-shadow: 0 0 20px white};
-	40%{text-shadow: 0 0 30px purple};
-	60%{text-shadow: 0 0 40px pink};
-	80%{text-shadow: 0 0 50px green};
+	20%{text-shadow: 0 0 20px aliceblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
 	
-	100%{text-shadow: 0 0 60px red};
+	100%{text-shadow: 0 0 60px white};
 }
 
 p{
@@ -107,14 +135,7 @@ main {
     width: 100%;
 	
 }
-@keyframes glitter{
-	0%{text-shadow: 0 0 10px purple};
-	20%{text-shadow: 0 0 20px black};
-	40%{text-shadow: 0 0 30px purple};
-	60%{text-shadow: 0 0 40px violet};
-	80%{text-shadow: 0 0 50px black};
-	100%{text-shadow: 0 0 60px purple};
-}
+
 
 /* CSS for the delete button */
 .delete-button {
@@ -190,45 +211,53 @@ main {
 #formname{
 	color: white;
     font-size: 40px;
-    font-family: 'Baskerville';
-    background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+    font-family: 'Josefin Sans', serif;
+    background: linear-gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white );
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	animation: glitter 3s infinite;
 }
 
 @keyframes glitter{
-    0%{text-shadow: 0 0 10px pink};
-    20%{text-shadow: 0 0 20px violet};
-    40%{text-shadow: 0 0 30px skyblue};
-    60%{text-shadow: 0 0 40px pink};
-    80%{text-shadow: 0 0 50px skyblue};
-    100%{text-shadow: 0 0 60px violet};
+
+	0%{text-shadow:  0 0 10px white};
+
+	20%{text-shadow: 0 0 20px aliceblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
+	
+	100%{text-shadow: 0 0 60px white};
 }
+
 
 .entry-text{
 	background-color:pink;
 	
-	font-family: "Baskerville";
+	font-family: 'Josefin Sans', serif;;
 	font-size: 40px;
 	line-height: 1.5;
 	display: inline-block;
 	width: calc(100% - 100px);
 	margin-right: 10px;
-	background: linear-gradient(to right, purple, violet, blue, pink, red, violet);
+	background: linear-gradient(to right,black, black, black, black, black, black);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	animation: glitter 3s infinite;
 }
 
 @keyframes glitter{
-    0%{text-shadow: 0 0 10px purple};
-    20%{text-shadow: 0 0 20px violet};
-    40%{text-shadow: 0 0 30px blue};
-    60%{text-shadow: 0 0 40px pink};
-    80%{text-shadow: 0 0 50px red};
-    100%{text-shadow: 0 0 60px violet};
+
+	0%{text-shadow:  0 0 10px black};
+
+	20%{text-shadow: 0 0 20px black};
+	40%{text-shadow: 0 0 30px black};
+	60%{text-shadow: 0 0 40px black};
+	80%{text-shadow: 0 0 50px black};
+	
+	100%{text-shadow: 0 0 60px black};
 }
+
 
 .entry-text:hover{
 	color: purple;
@@ -251,8 +280,9 @@ main {
 .entry-form {
     margin-bottom: 20px;
 	justify-content: center;
-	align-items: center;
-	flex: 0 0 18%
+	
+	
+	
 	
 }
 
@@ -265,60 +295,65 @@ main {
 }
 
 .entry-form textarea {
-	background: linear gradient(to right, pink, white, silver, pink, skyblue, pink);
+	background: linear gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white);
 	background-color: aliceblue;
 	animation: glitter 3s infinite;
     width: 90%;
-	font-family: "Baskerville";
+	font-family: 'Josefin Sans', serif;;
     padding: 10px;
     border-radius: 4px;
-    border: 5px dotted slateblue;
+    border: 5px solid black;
     font-size: 30px;
 	justify-content: center;
 }
 
 @keyframes glitter{
-	0%{text-shadow: 0 0 10px pink};
-	20%{text-shadow: 0 0 20px white};
-	40%{text-shadow: 0 0 30px silver};
 
-	60%{text-shadow: 0 0 40px pink};
-	80%{text-shadow: 0 0 50px skyblue};
-	100%{text-shadow: 0 0 60px pink};
+	0%{text-shadow:  0 0 10px white};
+
+	20%{text-shadow: 0 0 20px aliceblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
+	
+	100%{text-shadow: 0 0 60px white};
 }
 
 .entry-form textarea:hover{
-	color: violet;
+	color: black;
 }
 
 .entry-form button {
     display: inline-block;
 	padding: 8px 20px;
 	font-weight: bolder;
-	color: white;
+	color: black;
 	margin-top: 20px;
 	margin-bottom: 40px;
 	border: none;
 	border-radius: 5px;
 	text-decoration: none;
 	font-size: 20px;
-	font-family: 'Baskerville', 'serif';
+	font-family: 'Josefin Sans', serif;
 	transition: background-color 0.3s ease;
-	background: linear-gradient(to right, pink,violet, skyblue, pink, skyblue, violet);
+	background: linear-gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white);
 	animation: glitter 3s infinite;
 }
 
-@keyframes glitter {
-	0% {text-shadow: 0 0 10px pink};
-	20% {text-shadow: 0 0 20px violet};
-	40% {text-shadow: 0 0 30px skyblue};
-	60% {text-shadow: 0 0 40px pink};
-	80% {text-shadow: 0 0 50px skyblue};
-	100% {text-shadow: 0 0 60px violet};
-}  
+@keyframes glitter{
+
+	0%{text-shadow:  0 0 10px white};
+
+	20%{text-shadow: 0 0 20px aliceblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
+	
+	100%{text-shadow: 0 0 60px white};
+}
 
 .entry-form button:hover {
-    color:red;
+    color:silver;
 }
 
 .entries h2 {

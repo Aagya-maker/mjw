@@ -1,49 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Manifestation Journal</title>
-        
+
         <script src="manifest.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="./logged.css">
-
+        <script
+            src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="./logged.css" />
     </head>
     <body>
-        <header>
+        <header class="container text-center my-4">
             <h1>ManifestLog</h1>
-            <h2>
-                A Place To Log Your Manifestation</h2>
-               <h3> Enter your manifestations below and let your subconscious mind do the work! <h3>
-                <p>Write them in the present or past tense as if they have already
+            <h2>A Place To Log Your Manifestation</h2>
+            <p class="lead">
+                Enter your manifestations below and let your subconscious mind
+                do the work!
+            </p>
+            <p>
+                Write them in the present or past tense as if they have already
                 happened, such as "I had an amazing day" or "I achieved my dream
-                to be an entrepreneur"</p>
+                to be an entrepreneur".
+            </p>
+            <p>
                 Once these things happen in your three-dimensional reality,
-                click the checkbox at the left side of your desire to indicate that your
-                manifestation has been received. <br />You can write small
-                manifestations like "I received a free cup of coffee" or big
-                ones like "I have over X grand in my bank account."<br> Example
-                Manifestations: I received a free cup of coffee. <br>I had an
-                amazing day.<br> I achieved my dream of becoming a doctor. I got
-                over X grand of money in my bank account. <br>Feel free to add your
-                own and look back in awe! <br />
-            </h2>
+                click the checkbox at the left side of your desire to indicate
+                that your manifestation has been received.
+            </p>
+            <p>
+                You can write small manifestations like "I received a free cup
+                of coffee" or big ones like "I have over X grand in my bank
+                account."
+            </p>
+            <h3>Example Manifestations:</h3>
+            <ul class="list-unstyled">
+                <li>I received a free cup of coffee.</li>
+                <li>I had an amazing day.</li>
+                <li>I achieved my dream of becoming a doctor.</li>
+                <li>I got over X grand of money in my bank account.</li>
+            </ul>
+            <p><b>Feel free to add your own and look back in awe!</b></p>
         </header>
         <main>
             <div class="entry-form">
-                <label for="entry" id="formname">Write your manifestation:</label>
+                <label for="entry" id="formname"
+                    >Write your manifestation:</label
+                >
                 <textarea id="entry" rows="5" cols="50"></textarea>
-                <button id="submit-entry">Submit Your Manifestation To The Universe</button>
+                <button id="submit-entry">
+                    Submit Your Manifestation To The Universe
+                </button>
             </div>
             <div class="entries">
                 <h2>My Manifestation List:</h2>
                 <ul id="entry-list"></ul>
-
-                
-				
-				
             </div>
         </main>
     </body>

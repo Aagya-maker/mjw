@@ -13,7 +13,7 @@ body{
 	font-size: 60px;
 	margin-left: 20px;
 	justify-content: center;
-	background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+	background: linear-gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white);
 
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
@@ -24,14 +24,14 @@ body{
 
 @keyframes glitter{
 
-	0%{text-shadow:  0 0 10px purple};
+	0%{text-shadow:  0 0 10px white};
 
-	20%{text-shadow: 0 0 20px white};
-	40%{text-shadow: 0 0 30px purple};
-	60%{text-shadow: 0 0 40px pink};
-	80%{text-shadow: 0 0 50px green};
+	20%{text-shadow: 0 0 20px aliceblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
 	
-	100%{text-shadow: 0 0 60px red};
+	100%{text-shadow: 0 0 60px white};
 }
 
 ul{
@@ -63,7 +63,7 @@ h1{
 	
 	margin-left: 20px;
 	justify-content: center;
-	background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+	background: linear-gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white);
 
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
@@ -72,14 +72,14 @@ h1{
 }
 @keyframes glitter{
 
-	0%{text-shadow:  0 0 10px purple};
+	0%{text-shadow:  0 0 10px white};
 
-	20%{text-shadow: 0 0 20px white};
-	40%{text-shadow: 0 0 30px purple};
-	60%{text-shadow: 0 0 40px pink};
-	80%{text-shadow: 0 0 50px green};
+	20%{text-shadow: 0 0 20px aliceblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
 	
-	100%{text-shadow: 0 0 60px red};
+	100%{text-shadow: 0 0 60px white};
 }
 
 h2{
@@ -87,7 +87,7 @@ h2{
     font-family: 'Baskerville';
     font-size: 44px;
 	text-align: center;
-    background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+    background: linear-gradient(to right,white, aliceblue, whitesmoke, white, aliceblue, white);
 
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
@@ -95,14 +95,14 @@ h2{
 }
 @keyframes glitter{
 
-	0%{text-shadow:  0 0 10px purple};
+	0%{text-shadow:  0 0 10px white};
 
-	20%{text-shadow: 0 0 20px white};
-	40%{text-shadow: 0 0 30px purple};
-	60%{text-shadow: 0 0 40px pink};
-	80%{text-shadow: 0 0 50px green};
+	20%{text-shadow: 0 0 20px aliceblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
 	
-	100%{text-shadow: 0 0 60px red};
+	100%{text-shadow: 0 0 60px white};
 }
 
 
@@ -112,7 +112,7 @@ h3{
     font-size: 30px;
     font-family: 'Baskerville';
 	text-align: center;
-    background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+    background: linear-gradient(to right,white, aliceblue, whitesmoke, white, aliceblue, white );
 
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
@@ -121,15 +121,16 @@ h3{
 
 @keyframes glitter{
 
-	0%{text-shadow:  0 0 10px purple};
+	0%{text-shadow:  0 0 10px white};
 
-	20%{text-shadow: 0 0 20px white};
-	40%{text-shadow: 0 0 30px purple};
-	60%{text-shadow: 0 0 40px pink};
-	80%{text-shadow: 0 0 50px green};
+	20%{text-shadow: 0 0 20px aliceblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
 	
-	100%{text-shadow: 0 0 60px red};
+	100%{text-shadow: 0 0 60px white};
 }
+
 
 p{
 	color: white;
@@ -147,14 +148,6 @@ main {
     max-width: 2200px;
     width: 100%;
 	
-}
-@keyframes glitter{
-	0%{text-shadow: 0 0 10px purple};
-	20%{text-shadow: 0 0 20px black};
-	40%{text-shadow: 0 0 30px purple};
-	60%{text-shadow: 0 0 40px violet};
-	80%{text-shadow: 0 0 50px black};
-	100%{text-shadow: 0 0 60px purple};
 }
 
 
@@ -232,20 +225,24 @@ main {
 	color: white;
     font-size: 40px;
     font-family: 'Baskerville';
-    background: linear-gradient(to right, pink, violet, skyblue, pink, skyblue, violet);
+    background: linear-gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white );
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	animation: glitter 3s infinite;
 }
 
 @keyframes glitter{
-    0%{text-shadow: 0 0 10px pink};
-    20%{text-shadow: 0 0 20px violet};
-    40%{text-shadow: 0 0 30px skyblue};
-    60%{text-shadow: 0 0 40px pink};
-    80%{text-shadow: 0 0 50px skyblue};
-    100%{text-shadow: 0 0 60px violet};
+
+	0%{text-shadow:  0 0 10px white};
+
+	20%{text-shadow: 0 0 20px aliceblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
+	
+	100%{text-shadow: 0 0 60px white};
 }
+
 
 .entry-text{
 	background-color:pink;
@@ -256,19 +253,22 @@ main {
 	display: inline-block;
 	width: calc(100% - 100px);
 	margin-right: 10px;
-	background: linear-gradient(to right, purple, violet, blue, pink, red, violet);
+	background: linear-gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white );
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	animation: glitter 3s infinite;
 }
 
 @keyframes glitter{
-    0%{text-shadow: 0 0 10px purple};
-    20%{text-shadow: 0 0 20px violet};
-    40%{text-shadow: 0 0 30px blue};
-    60%{text-shadow: 0 0 40px pink};
-    80%{text-shadow: 0 0 50px red};
-    100%{text-shadow: 0 0 60px violet};
+
+	0%{text-shadow:  0 0 10px white};
+
+	20%{text-shadow: 0 0 20px aliceblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
+	
+	100%{text-shadow: 0 0 60px white};
 }
 
 .entry-text:hover{
@@ -293,7 +293,7 @@ main {
     margin-bottom: 20px;
 	justify-content: center;
 	align-items: center;
-	flex: 0 0 18%
+	flex: 0 0 18%;
 	
 }
 
@@ -306,8 +306,8 @@ main {
 }
 
 .entry-form textarea {
-	background: linear gradient(to right, pink, white, silver, pink, skyblue, pink);
-	background-color: aliceblue;
+	background: linear gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white );
+	background-color: black;
 	animation: glitter 3s infinite;
     width: 90%;
 	font-family: "Baskerville";
@@ -319,14 +319,17 @@ main {
 }
 
 @keyframes glitter{
-	0%{text-shadow: 0 0 10px pink};
-	20%{text-shadow: 0 0 20px white};
-	40%{text-shadow: 0 0 30px silver};
 
-	60%{text-shadow: 0 0 40px pink};
-	80%{text-shadow: 0 0 50px skyblue};
-	100%{text-shadow: 0 0 60px pink};
+	0%{text-shadow:  0 0 10px white};
+
+	20%{text-shadow: 0 0 20px aliceblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
+	
+	100%{text-shadow: 0 0 60px white};
 }
+
 
 .entry-form textarea:hover{
 	color: violet;
@@ -345,21 +348,24 @@ main {
 	font-size: 20px;
 	font-family: 'Baskerville', 'serif';
 	transition: background-color 0.3s ease;
-	background: linear-gradient(to right, pink,violet, skyblue, pink, skyblue, violet);
+	background: linear-gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white);
 	animation: glitter 3s infinite;
 }
 
-@keyframes glitter {
-	0% {text-shadow: 0 0 10px pink};
-	20% {text-shadow: 0 0 20px violet};
-	40% {text-shadow: 0 0 30px skyblue};
-	60% {text-shadow: 0 0 40px pink};
-	80% {text-shadow: 0 0 50px skyblue};
-	100% {text-shadow: 0 0 60px violet};
-}  
+@keyframes glitter{
+
+	0%{text-shadow:  0 0 10px white};
+
+	20%{text-shadow: 0 0 20px aliceblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
+	
+	100%{text-shadow: 0 0 60px white};
+}
 
 .entry-form button:hover {
-    color:red;
+    color:silver;
 }
 
 .entries h2 {
@@ -395,43 +401,35 @@ main {
 }
 
 
-#google-login-btn{
-	font-family: "Baskerville";
-	justify-content: center;
-	
-	margin: 0;
-	padding:0;
-	display: flex;
-	flex: 0 0 18%;
-	margin-left: 1000px;
-	margin-bottom: 20px;
-	
-
-	
-	
-	font-size: 16px;
-	display: inline-block;
-	padding: 10px 20px;
-	font-weight: bolder;
-	color: black;
-	
-	border: none;
-	border-radius: 5px;
-	text-decoration: none;
-	font-size: 20px;
-	font-family: 'Baskerville', 'serif';
-	background: linear-gradient(to right, darkblue, white, purple, silver, violet, aliceblue);
-	animation: glitter 3s infinite;
-	
+#google-login-btn {
+    font-family: "Baskerville";
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-weight: bolder;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Baskerville', 'serif';
+    background: linear-gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white);
+    animation: glitter 3s infinite;
 }
 
-@keyframes glitter{
-	0%{text-shadow: 0 0 10px darkblue};
-	20%{text-shadow: 0 0 20px white};
-	40%{text-shadow: 0 0 30px purple};
-	60%{text-shadow: 0 0 40px silver};
-	80%{text-shadow: 0 0 50px violet};
-	100%{text-shadow: 0 0 60px aliceblue};
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
-	
+
+
+@keyframes glitter {
+    0% { text-shadow: 0 0 10px white; }
+    20% { text-shadow: 0 0 20px aliceblue; }
+    40% { text-shadow: 0 0 30px whitesmoke; }
+    60% { text-shadow: 0 0 40px white; }
+    80% { text-shadow: 0 0 50px aliceblue; }
+    100% { text-shadow: 0 0 60px white; }
+}
 

@@ -1,14 +1,17 @@
 body{
-	background-color: black
+	background-color: black;
+	justify-content: center;
+	
+
 	
 }
 
 
 
 h1{
-	font-family:"Baskerville";
+	font-family:"Josefin Sans", serif;
 	font-size: 50px;
-	background: linear-gradient(to right, purple, aliceblue, violet, whitesmoke, pink, skyblue);
+	background: linear-gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 	animation: glitter 3s infinite;
@@ -16,19 +19,23 @@ h1{
 }
 
 @keyframes glitter{
-	0%{text-shadow: 0 0 10px purple};
+
+	0%{text-shadow:  0 0 10px white};
+
 	20%{text-shadow: 0 0 20px aliceblue};
-	40%{text-shadow: 0 0 30px violet};
-	60%{text-shadow: 0 0 40px whitesmoke};
-	80%{text-shadow: 0 0 50px pink};
-	100%{text-shadow: 0 0 60px skyblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
+	
+	100%{text-shadow: 0 0 60px white};
 }
+
 
 
 h2{
-	font-family: "Baskerville";
+	font-family: "Josefin Sans", serif;
 	font-size: 40px;
-	background: linear-gradient(to right, purple, aliceblue, violet, whitesmoke, pink, skyblue);
+	background: linear-gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 	animation: glitter 3s infinite;
@@ -36,12 +43,15 @@ h2{
 
 }
 @keyframes glitter{
-	0%{text-shadow: 0 0 10px purple};
+
+	0%{text-shadow:  0 0 10px white};
+
 	20%{text-shadow: 0 0 20px aliceblue};
-	40%{text-shadow: 0 0 30px violet};
-	60%{text-shadow: 0 0 40px whitesmoke};
-	80%{text-shadow: 0 0 50px pink};
-	100%{text-shadow: 0 0 60px skyblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
+	
+	100%{text-shadow: 0 0 60px white};
 }
 
 
@@ -59,7 +69,7 @@ ul{
 	font-weight: bolder;
 	margin: 30px;
 	padding: 30px;
-	background: linear-gradient(to right, purple, aliceblue, violet, whitesmoke, pink, skyblue);
+	background: linear-gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 	animation: glitter 3s infinite;
@@ -67,14 +77,17 @@ ul{
 
 }
 @keyframes glitter{
-	0%{text-shadow: 0 0 10px purple};
+
+	0%{text-shadow:  0 0 10px white};
+
 	20%{text-shadow: 0 0 20px aliceblue};
-	40%{text-shadow: 0 0 30px violet};
-	60%{text-shadow: 0 0 40px whitesmoke};
-	80%{text-shadow: 0 0 50px pink};
-	100%{text-shadow: 0 0 60px skyblue};
-}
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
 	
+	100%{text-shadow: 0 0 60px white};
+}
+
 
 
 
@@ -89,8 +102,8 @@ li{
 
 p{
 	font-size: 26px;
-	font-family: 'Baskerville';
-	background: linear-gradient(to right, purple, aliceblue, violet, whitesmoke, pink, skyblue);
+	font-family: "Josefin Sans", serif;
+	background: linear-gradient(to right, white, aliceblue, whitesmoke, white, aliceblue, white);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 	animation: glitter 3s infinite;
@@ -99,12 +112,15 @@ p{
 }
 
 @keyframes glitter{
-	0%{text-shadow: 0 0 10px purple};
+
+	0%{text-shadow:  0 0 10px white};
+
 	20%{text-shadow: 0 0 20px aliceblue};
-	40%{text-shadow: 0 0 30px violet};
-	60%{text-shadow: 0 0 40px whitesmoke};
-	80%{text-shadow: 0 0 50px pink};
-	100%{text-shadow: 0 0 60px skyblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
+	
+	100%{text-shadow: 0 0 60px white};
 }
 
 
@@ -117,8 +133,8 @@ p{
 h5{
 	color: white;
 	font-size: 40px;
-	font-family: 'Baskerville';
-	background: linear-gradient(to right, purple, aliceblue, violet, whitesmoke, pink, skyblue);
+	font-family: '"Josefin Sans", serif';
+	background: linear-gradient(to right,white, aliceblue, whitesmoke, white, aliceblue, white);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 	animation: glitter 3s infinite;
@@ -127,12 +143,15 @@ h5{
 }
 
 @keyframes glitter{
-	0%{text-shadow: 0 0 10px purple};
+
+	0%{text-shadow:  0 0 10px white};
+
 	20%{text-shadow: 0 0 20px aliceblue};
-	40%{text-shadow: 0 0 30px violet};
-	60%{text-shadow: 0 0 40px whitesmoke};
-	80%{text-shadow: 0 0 50px pink};
-	100%{text-shadow: 0 0 60px skyblue};
+	40%{text-shadow: 0 0 30px whitesmoke};
+	60%{text-shadow: 0 0 40px white};
+	80%{text-shadow: 0 0 50px aliceblue};
+	
+	100%{text-shadow: 0 0 60px white};
 }
 
 
